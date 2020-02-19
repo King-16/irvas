@@ -1,0 +1,936 @@
+@media (max-width: 1125px){
+	.container{
+		max-width: 90%;
+	}
+	.header {
+	&__wrapper {}
+	&__logo {}
+	&__subtitle {}
+	&__btn {
+		&_link {}
+	}
+	&__work_time {
+		&:before{
+			left: -40px;
+		};
+	}
+	&__info {
+		&_phone {}
+		&_link {}
+	}
+}
+.first {
+	&__wrapper {}
+	&__text {}
+	&__featured {
+		&_item {}
+	}
+	&__form {
+		&_title {}
+		&_item {}
+	}
+}
+.glazing {
+	&__wrapper {}
+	&__item {}
+	&__photo {}
+	&__title {}
+	&__calc {
+		flex-direction: column;
+		&_column {}
+		&_line {}
+		&_wrapper {}
+		&_title {}
+		&_image {}
+		&_menu {}
+		&_item {}
+		&_result {}
+		&_price {}
+		&_btn {}
+	}
+	&__could {
+		&_line {}
+		&_title {}
+	}
+	&__warm {
+		&_line {}
+		&_title {}
+	}
+}
+.title {
+}
+.discount {
+	&__wrapper {}
+	&__tabs {
+		&_item {
+			padding: 40px 20px;
+		}
+		&_link {}
+	}
+	&__content {
+		&_item {
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+	}
+	&__main {
+		&_image {
+			order: 1;
+		}
+	}
+	&__images {
+		order: 3;
+		&_item {}
+		&_title {}
+		&_price {}
+	}
+	.first__form{
+		order: 2;
+	}
+}
+.portfolio {
+	&__wrapper {}
+	&__item {
+		&_image {}
+		&_zoom {}
+	}
+}
+.geurante {
+	&__wrapper {}
+	&__item {}
+	&__title {}
+}
+.services {
+	&__wrapper {}
+	&__item {}
+}
+.action {
+	&__wrapper {}
+	&__info {}
+	&__title {}
+	&__subtitle {}
+	&__timer {
+		&_text {}
+	}
+	&__numbers {
+		&_item {}
+		&_num {}
+		&_text {}
+	}
+	&__form {}
+}
+.map {
+	&__wrapper {}
+	&__img {}
+	&__text {
+		&_item {}
+		&_title {}
+		&_info {}
+		&_phone {}
+		&_email {}
+	}
+}
+.question {
+	&__wrapper {}
+	&__query {}
+	&__respone {}
+}
+.footer {
+	&__wrapper {}
+	&__copy {}
+	&__logo {
+		&_link {}
+	}
+	&__contact {
+		&_phone {}
+		&_email {}
+	}
+}
+};
+
+@media (max-width: 1025px){
+	.header__subtitle{
+		display: none;
+	}
+	.header__wrapper{
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+	.glazing__item{
+		margin: 0 15px;
+	}
+	.discount__tabs_item{
+		padding: 40px 10px;
+	}
+};
+
+@media (max-width: 968px){
+	.discount__tabs{}
+	.first .first__form{
+		display: none;
+	}
+};
+
+@media (max-width: 900px){
+	h1{
+		margin-top: 100px;
+	}
+	.first__featured{}
+	.portfolio__wrapper{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+	.services__wrapper{}
+	.services__item{
+		margin: 20px 0;
+	}
+	.map__wrapper{
+		justify-content: center;
+	}
+	.map__text{
+		margin-top: 50px;
+	}
+};
+
+@media (max-width: 800px){
+	.header__work_time, .header__info, .header__btn{
+		display: none;
+		margin-top: 80px;
+		z-index: 3;
+		a{
+			color: #fff;
+		}
+	}
+	.header {
+	height: 50px;
+	padding: 10px 0;
+	&:before{
+		z-index: 2;
+	};
+	&__wrapper {
+		grid-template-columns: 1fr 1fr;
+	}
+	&__logo {
+		order: 1;
+	}
+	&__subtitle {}
+	&__btn {
+		order: 3;
+		padding: 5px;
+		&_link {}
+	}
+	&__work_time {
+		order: 4;
+		p,span{
+			color: #fff;
+		}
+	}
+	&__info {
+		order: 5;
+		&_phone {}
+		&_link {}
+	}
+	&__burger {
+		order: 2;
+		display: block;
+		z-index: 3;
+	}
+}
+	.first {
+	&__wrapper {}
+	&__text {}
+	&__featured {
+		&_item {}
+	}
+	&__form {
+		&_title {}
+		&_item {}
+	}
+}
+.glazing {
+	&__wrapper {}
+	&__item {}
+	&__photo {}
+	&__title {}
+	&__calc {
+		&_column {}
+		&_line {}
+		&_wrapper {}
+		&_title {}
+		&_image {}
+		&_menu {}
+		&_item {}
+		&_result {}
+		&_price {}
+		&_btn {}
+	}
+	&__could {
+		&_line {}
+		&_title {}
+	}
+	&__warm {
+		&_line {}
+		&_title {}
+	}
+}
+.title {
+}
+.discount {
+	&__wrapper {}
+	&__tabs {
+		&_item {}
+		&_link {}
+	}
+	&__content {
+		&_item {}
+	}
+	&__main {
+		&_image {}
+	}
+	&__images {
+		&_item {}
+		&_title {}
+		&_price {}
+	}
+}
+.portfolio {
+	&__wrapper {}
+	&__item {
+		&_image {}
+		&_zoom {}
+	}
+}
+.geurante {
+	&__wrapper {}
+	&__item {}
+	&__title {}
+}
+.services {
+	&__wrapper {}
+	&__item {}
+}
+.action {
+	&__wrapper {}
+	&__info {}
+	&__title {}
+	&__subtitle {}
+	&__timer {
+		&_text {}
+	}
+	&__numbers {
+		&_item {}
+		&_num {}
+		&_text {}
+	}
+	&__form {
+		.first__form{
+			width: 370px;
+		}
+	}
+
+}
+.map {
+	&__wrapper {}
+	&__img {}
+	&__text {
+		&_item {}
+		&_title {}
+		&_info {}
+		&_phone {}
+		&_email {}
+	}
+}
+.question {
+	&__wrapper {}
+	&__query {}
+	&__respone {}
+}
+.footer {
+	&__wrapper {}
+	&__copy {}
+	&__logo {
+		&_link {}
+	}
+	&__contact {
+		&_phone {}
+		&_email {}
+	}
+}
+}
+
+@media (max-width: 750px){
+	.header {
+	&__wrapper {}
+	&__logo {}
+	&__subtitle {}
+	&__btn {
+		&_link {}
+	}
+	&__work {
+		&_time {}
+	}
+	&__info {
+		&_phone {}
+		&_link {}
+	}
+}
+.first {
+	&__wrapper {}
+	&__text {}
+	&__featured {
+		&_item {}
+	}
+	&__form {
+		&_title {}
+		&_item {}
+	}
+}
+.glazing {
+	&__wrapper {}
+	&__item {}
+	&__photo {}
+	&__title {}
+	&__calc {
+		&_column {}
+		&_line {}
+		&_wrapper {}
+		&_title {}
+		&_image {}
+		&_menu {}
+		&_item {}
+		&_result {}
+		&_price {}
+		&_btn {}
+	}
+	&__could {
+		&_line {}
+		&_title {}
+	}
+	&__warm {
+		&_line {}
+		&_title {}
+	}
+}
+.title {
+}
+.discount {
+	&__wrapper {}
+	&__tabs {
+		&_item {}
+		&_link {}
+	}
+	&__content {
+		&_item {}
+	}
+	&__main {
+		&_image {}
+	}
+	&__images {
+		&_item {}
+		&_title {}
+		&_price {}
+	}
+}
+.portfolio {
+	&__wrapper {
+		grid-template-columns: 1fr 1fr;
+	}
+	&__item {
+		&_image {}
+		&_zoom {}
+	}
+}
+.geurante {
+	&__wrapper {
+		grid-template-columns: 1fr 1fr;
+	}
+	&__item {}
+	&__title {}
+}
+.services {
+	&__wrapper {}
+	&__item {}
+}
+.action {
+	&__wrapper {
+		flex-direction: column;
+	}
+	&__info {
+		text-align: center;
+		margin-right: 0;
+	}
+	&__title {}
+	&__subtitle {
+		text-align: left;
+	}
+	&__timer {
+		max-width: 100%;
+		text-align: center;
+		margin-bottom: 50px;
+		&_text {}
+	}
+	&__numbers {
+		&_item {}
+		&_num {}
+		&_text {}
+	}
+	&__form {}
+}
+.map {
+	&__wrapper {}
+	&__img {}
+	&__text {
+		&_item {}
+		&_title {}
+		&_info {}
+		&_phone {}
+		&_email {}
+	}
+}
+.question {
+	&__wrapper {}
+	&__query {}
+	&__respone {}
+}
+.footer {
+	&__wrapper {}
+	&__copy {}
+	&__logo {
+		&_link {}
+	}
+	&__contact {
+		&_phone {}
+		&_email {}
+	}
+}
+};
+@media (max-width: 560px){
+	.header {
+	&__wrapper {}
+	&__logo {}
+	&__subtitle {}
+	&__btn {
+		&_link {}
+	}
+	&__work {
+		&_time {}
+	}
+	&__info {
+		&_phone {}
+		&_link {}
+	}
+}
+.first {
+	&__wrapper {}
+	&__text {}
+	&__featured {
+		display: none;
+		&_item {
+			margin: 0 5px;
+		}
+	}
+	&__form {
+		&_title {}
+		&_item {}
+	}
+}
+.glazing {
+	&__wrapper {}
+	&__item {}
+	&__photo {}
+	&__title {}
+	&__calc {
+		&_column {}
+		&_line {}
+		&_wrapper {
+		}
+		&_title {}
+		&_image {}
+		&_menu {}
+		&_item {}
+		&_result {}
+		&_price {}
+		&_btn {}
+	}
+	&__could {
+		&_line {}
+		&_title {}
+	}
+	&__warm {
+		&_line {}
+		&_title {}
+	}
+}
+.title {
+}
+.discount {
+	&__wrapper {}
+	&__tabs {
+		&_item {}
+		&_link {}
+	}
+	&__content {
+		&_item {}
+	}
+	&__main {
+		&_image {}
+	}
+	&__images {
+		&_item {}
+		&_title {}
+		&_price {}
+	}
+}
+.portfolio {
+	&__wrapper {}
+	&__item {
+		&_image {}
+		&_zoom {}
+	}
+}
+.geurante {
+	&__wrapper {
+		grid-gap: 20px;
+	}
+	&__item {}
+	&__title {}
+}
+.services {
+	&__wrapper {}
+	&__item {}
+}
+.action {
+	&__wrapper {}
+	&__info {}
+	&__title {}
+	&__subtitle {}
+	&__timer {
+		&_text {}
+	}
+	&__numbers {
+		&_item {}
+		&_num {}
+		&_text {}
+	}
+	&__form {}
+}
+.map {
+	&__wrapper {}
+	&__img {}
+	&__text {
+		&_item {}
+		&_title {}
+		&_info {}
+		&_phone {}
+		&_email {}
+	}
+}
+.question {
+	&__wrapper {
+		flex-direction: column;
+	}
+	&__query {}
+	&__respone {
+		margin-top: 10px;
+	}
+}
+.footer {
+	&__wrapper {
+		flex-direction: column;
+	}
+	&__copy {
+		order: 2;
+		text-align: center;
+		margin: 10px 0;
+	}
+	&__logo {
+		order: 1;
+		&_link {}
+	}
+	&__contact {
+		order: 3;
+		text-align: center;
+		&_phone {}
+		&_email {}
+	}
+}
+};
+@media (max-width: 480px){
+	.header {
+	&__wrapper {}
+	&__logo {}
+	&__subtitle {}
+	&__btn {
+		&_link {}
+	}
+	&__work {
+		&_time {}
+	}
+	&__info {
+		&_phone {}
+		&_link {}
+	}
+}
+.first {
+	&__wrapper {}
+	&__text {}
+	&__featured {
+		&_item {}
+	}
+	&__form {
+		&_title {}
+		&_item {}
+	}
+}
+.glazing {
+	&__wrapper {}
+	&__item {}
+	&__photo {
+		img{
+			margin: 0 auto;
+		}
+	}
+	&__title {}
+	&__calc {
+		&_column {}
+		&_line {}
+		&_wrapper {}
+		&_title {}
+		&_image {}
+		&_menu {}
+		&_item {}
+		&_result {
+			flex-direction: column;
+		}
+		&_price {}
+		&_btn {}
+	}
+	&__could {
+		&_line {}
+		&_title {}
+	}
+	&__warm {
+		&_line {}
+		&_title {}
+	}
+}
+.title {
+}
+.discount {
+	&__wrapper {}
+	&__tabs {
+		&_item {}
+		&_link {}
+	}
+	&__content {
+		&_item {}
+	}
+	&__main {
+		&_image {}
+	}
+	&__images {
+		grid-template-columns: 1fr 1fr;
+		&_item {}
+		&_title {}
+		&_price {}
+	}
+}
+.portfolio {
+	&__wrapper {}
+	&__item {
+		&_image {}
+		&_zoom {}
+	}
+}
+.geurante {
+	&__wrapper {}
+	&__item {}
+	&__title {}
+}
+.services {
+	&__wrapper {}
+	&__item {}
+}
+.action {
+	&__wrapper {}
+	&__info {}
+	&__title {}
+	&__subtitle {}
+	&__timer {
+		&_text {}
+	}
+	&__numbers {
+		&_item {}
+		&_num {}
+		&_text {}
+	}
+	&__form {}
+}
+.map {
+	&__wrapper {}
+	&__img {
+		img{
+			max-width: 100%;
+			margin: 0 auto;
+		}
+	}
+	&__text {
+		&_item {}
+		&_title {}
+		&_info {}
+		&_phone {}
+		&_email {}
+	}
+}
+.question {
+	&__wrapper {}
+	&__query {}
+	&__respone {}
+}
+.footer {
+	&__wrapper {}
+	&__copy {}
+	&__logo {
+		&_link {}
+	}
+	&__contact {
+		&_phone {}
+		&_email {}
+	}
+}
+};
+@media (min-height: 900px){
+	.first{
+		height: auto;
+	}
+};
+/* 
+.header {
+	&__wrapper {}
+	&__logo {}
+	&__subtitle {}
+	&__btn {
+		&_link {}
+	}
+	&__work {
+		&_time {}
+	}
+	&__info {
+		&_phone {}
+		&_link {}
+	}
+}
+.first {
+	&__wrapper {}
+	&__text {}
+	&__featured {
+		&_item {}
+	}
+	&__form {
+		&_title {}
+		&_item {}
+	}
+}
+.glazing {
+	&__wrapper {}
+	&__item {}
+	&__photo {}
+	&__title {}
+	&__calc {
+		&_column {}
+		&_line {}
+		&_wrapper {}
+		&_title {}
+		&_image {}
+		&_menu {}
+		&_item {}
+		&_result {}
+		&_price {}
+		&_btn {}
+	}
+	&__could {
+		&_line {}
+		&_title {}
+	}
+	&__warm {
+		&_line {}
+		&_title {}
+	}
+}
+.title {
+}
+.discount {
+	&__wrapper {}
+	&__tabs {
+		&_item {}
+		&_link {}
+	}
+	&__content {
+		&_item {}
+	}
+	&__main {
+		&_image {}
+	}
+	&__images {
+		&_item {}
+		&_title {}
+		&_price {}
+	}
+}
+.portfolio {
+	&__wrapper {}
+	&__item {
+		&_image {}
+		&_zoom {}
+	}
+}
+.geurante {
+	&__wrapper {}
+	&__item {}
+	&__title {}
+}
+.services {
+	&__wrapper {}
+	&__item {}
+}
+.action {
+	&__wrapper {}
+	&__info {}
+	&__title {}
+	&__subtitle {}
+	&__timer {
+		&_text {}
+	}
+	&__numbers {
+		&_item {}
+		&_num {}
+		&_text {}
+	}
+	&__form {}
+}
+.map {
+	&__wrapper {}
+	&__img {}
+	&__text {
+		&_item {}
+		&_title {}
+		&_info {}
+		&_phone {}
+		&_email {}
+	}
+}
+.question {
+	&__wrapper {}
+	&__query {}
+	&__respone {}
+}
+.footer {
+	&__wrapper {}
+	&__copy {}
+	&__logo {
+		&_link {}
+	}
+	&__contact {
+		&_phone {}
+		&_email {}
+	}
+}
+ */

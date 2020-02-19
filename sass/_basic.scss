@@ -1,0 +1,57 @@
+body{
+	font-family: "Open Sans";
+	color: $dark__black;
+	.lock{
+		overflow: hidden;
+	}
+}
+h1{
+	color: $dark;
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 48px;
+	max-width: 450px;
+	span{
+		font-size: 26px;
+	}
+}
+h2{
+	color: $dark;
+	font-family: "Open Sans";
+	font-size: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin: 0;
+}
+h3{
+	color: #fff;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+a{
+	font-family: "Open Sans";
+	font-size: 15px;
+	font-weight: 400;
+	text-decoration: none;
+	outline: none;
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.title{
+	position: relative;
+	text-align: center;
+	&:after{
+		position: absolute;
+		left: 50%;
+		bottom: -25px;
+		transform: translateX(-50%);
+		content: url('../img/line.png');
+		display: inline-block;
+	};
+}
+img{
+	outline: none;
+}
